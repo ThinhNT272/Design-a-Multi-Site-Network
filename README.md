@@ -23,23 +23,18 @@ Your are responsible for designing the network infrastructure, including:
 - Include core, distribution, and access layers if used.
 - Specify subnetting strategy (IPv4 and IPv6) and how subnets are distributed across departments.
 
-2. Equipment Selection
-For each part of the network, choose appropriate devices:
-- Routers, switches (L2 and L3), firewalls, wireless access points, VPN concentrators, etc.
-- Justify your choices based on performance, scalability, budget (mid-range), and vendor diversity (e.g., Cisco, Mikrotik, Juniper, etc.).
-
-3. VPN and WAN Connectivity
+2. VPN and WAN Connectivity
 - Propose a site-to-site VPN solution to securely connect the three buildings over the internet.
 - Configure redundant VPN tunnels using IPSec/IKEv2 or OpenVPN.
 - Propose how to handle remote access VPN for employees working from home.
 
-4. IPv4/IPv6 Interoperability
+3. IPv4/IPv6 Interoperability
 - Allocate IPv4 private addressing using a well-defined VLSM scheme.
 - Assign IPv6 global unicast addresses using a simulated prefix.
 - Explain how dual-stack configuration is used to support both IPv4 and IPv6.
 - Specify mechanisms for interoperability (e.g., NAT64, DNS64, or tunneling if required).
 
-5. Security and Management
+4. Security and Management
 - Include firewall placement and access control policies.
 - Propose network monitoring and logging solutions.
 - Suggest VLAN structure for isolating different departments (e.g., HR, Dev, Sales, Guest).
@@ -47,7 +42,6 @@ For each part of the network, choose appropriate devices:
 ## Deliverables:
 A detailed report including:
 - Network diagrams (logical and physical)
-- Device specifications and vendor justifications
 - IP addressing plan (both IPv4 and IPv6)
 - VPN design and configuration outline
 - Security, monitoring, and expansion recommendations
